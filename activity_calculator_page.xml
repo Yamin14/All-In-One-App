@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculatorPage"
+    android:background="@color/Background">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00ed55"
+        android:fontFamily="sans-serif-black"
+        android:text="Go Back"
+        android:textAllCaps="false"
+        android:textColor="#005500"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Calculator"
+        android:textColor="#005500"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnequal"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="="
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btndivide"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="÷"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnmultiply"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="×"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnminus"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="-"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnplus"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="440dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="+"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="0"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="3"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="2"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="1"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btndot"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="."
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="440dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="5"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="440dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="6"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="440dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="4"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="9"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="8"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="7"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="Clear"
+        android:textAllCaps="false"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#00fead"
+        android:fontFamily="sans-serif-black"
+        android:text="Del"
+        android:textAllCaps="false"
+        android:textColor="@color/CalculatorTextColor"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="#00fead"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00fead"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
